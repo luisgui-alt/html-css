@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmicas</title>
+</head>
+<body>
+    <h1>Imagens réas dinâmicas sla</h1>
+    <p>tente abrir esse site em diferetes dispositvos ou diminua o tamanho do seu navegador >:D</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="ibagens/fotop.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="ibagens/fotom.png" type="image/png">
+        <img src="ibagens/fotog.png" alt="imagem flexivel">
+    </picture>
+<h1>reproduzindo áudio</h1>
+<p>AAAAAAAHHHGGGGG áudio em html5</p>
+<audio src="midia/finalboss.mp3" autoplay controls></audio> <!--MP3 WAV OGG-->
+<p>outro jeito melhor:</p>
+<audio preload="metadata" controls>
+    <source src="midia/finalboss.mp3" type="audio/mpeg">
+    <source src="midia/finalboss.ogg" type="audio/ogg">
+    <source src="midia/finalboss.wav" type="audio/wav">
+    <p>infelizmente, seu navegador não consegue reproduzir áudios,<a href="midia/finalboss.mp3">clique aqui para baixar o arquivo.</a></p> <!--a posição das linhas de código importa, sendo carregada de cima para baixo. e em caso de incompatibilidade, aparecendo a última linha.-->
+</audio>
+</body>
+</html>

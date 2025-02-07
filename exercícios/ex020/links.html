@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fucking links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: darkred;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+
+        a:active {
+            color: gold;
+        }
+
+        .especial::before {
+            content: '♦ '  
+        }
+
+        .especial::after {
+            content: ' ♦'
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando link</h1>
+    <ul>
+        <li><a href="github.com/gustavoguanabara/html-css/tree/master/aulas-pdf">Repositório Git Hub</a></li>
+        <li><a href="https://music.youtube.com/watch?v=exvt4dzmuaI&list=RDAMVMNLcLlEYUyMI">Canal na porra do youtube</a></li>
+        <li><a href="https://sisu.ufc.br/pt/lista-de-espera-2025/" class="especial">link del Big Balls</a></li>
+    </ul>
+</body>
+</html>
