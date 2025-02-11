@@ -1,5 +1,19 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'merri';
+    src: url(fontes/Merriweather-Regular.ttf) format(opentype);
+    font-size: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'patrick';
+    src: url(fontes/Patrick-Hand-Regular.ttf) format(opentype);
+    font-size: normal;
+    font-weight: normal;
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -36,6 +50,7 @@ header > p {
 }
 
 body, html {
+    font-family: 'patrick';
     background-color: darkgray;
     min-height: 100vh;
 }
