@@ -88,6 +88,7 @@ section.imagem {
     text-shadow: 1px 1px 0px black;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.493);
     background-size: cover;
+    background-attachment: fixed;
 }
 
 section#img01 {
