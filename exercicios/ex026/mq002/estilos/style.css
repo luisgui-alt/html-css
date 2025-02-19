@@ -6,8 +6,8 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-    background-color: rgb(139, 28, 28);
+html, body {
+    background-color: rgb(6, 44, 126);
     background-size: contain;
     background-repeat: no-repeat;
     width: 100vw;
