@@ -38,22 +38,8 @@ img {
     margin: auto;
 }
 
-img#cel {
-    display: block;
-}
-
-img#pc {
-    display: none;
-}
-
-img#tv {
-    display: none;
-}
-
-img#tablet {
-    display: none;
-}
-
-img#print {
-    display: none;
-}
+img#cel { display: block; }
+img#pc { display: none; }
+img#tv { display: none; }
+img#tablet { display: none; }
+img#print { display: none; }
