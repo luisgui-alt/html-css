@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>menu responsivo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
     <header>
-        <h1>Where we are today? we build it</h1>
-       <menu>
+        <h1>Where we are today? We build it.</h1>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+       <menu id="itens">
         <ul>
             <li><a href="#">Opção 1</a></li>
             <li><a href="#">Opção 2</a></li>
@@ -21,10 +23,22 @@
        </menu>
     </header>
     <main>
-        <h2> This legend? is ours</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus error unde modi possimus odit! Excepturi nesciunt fuga eius dolores molestiae placeat, sint unde, et officia velit sit, provident dolorem ipsam?</p>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita magnam magni quis similique, voluptatum ipsa, temporibus aperiam consequatur odit soluta, dolor illum dignissimos architecto. Amet pariatur quam officia consequuntur laboriosam.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ipsam, ut excepturi sunt fugiat eius dolorem voluptatum ducimus magnam! Ipsa sequi placeat eos at consequuntur! Doloribus, iusto! Soluta, minima pariatur.</p>
+        <article>
+            <h2> This legend? Its ours.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus error unde modi possimus odit! Excepturi nesciunt fuga eius dolores molestiae placeat, sint unde, et officia velit sit, provident dolorem ipsam?</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita magnam magni quis similique, voluptatum ipsa, temporibus aperiam consequatur odit soluta, dolor illum dignissimos architecto. Amet pariatur quam officia consequuntur laboriosam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ipsam, ut excepturi sunt fugiat eius dolorem voluptatum ducimus magnam! Ipsa sequi placeat eos at consequuntur! Doloribus, iusto! Soluta, minima pariatur.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quibusdam itaque perspiciatis commodi id excepturi molestias, voluptatibus aut, ad adipisci voluptas repellendus. Et accusantium hic est eveniet adipisci distinctio. Quae! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum magnam officiis veritatis perferendis at, sequi animi veniam laboriosam, rerum optio vitae totam quia placeat. Iusto distinctio eaque alias odio maxime. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit deleniti sed cumque ullam earum, inventore dolores maxime alias dicta harum neque, laborum architecto illo repellendus! Perspiciatis ullam atque eligendi minus.</p>
+        </article>
     </main>
+    <script>
+        function clickMenu () {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
