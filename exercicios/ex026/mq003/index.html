@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media fucking query</title>
+    <style>
+        * {
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        }
+
+        html, body {
+        background-color: rgb(6, 44, 126);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 100vh;
+        }
+
+        h1 {
+        color: white;
+        text-shadow: 4px 2px 6px rgb(220, 224, 13);
+        padding: 10px;
+        }
+
+        @media screen and (orientation: portrait) {
+            body {
+            background-image: url(../imagens/cev-portrait.jpg);
+            background-position: center bottom;
+            }
+         }
+
+        @media screen and (orientation: landscape) {
+            body {
+            background-image: url(../imagens/cev-landscape.jpg);
+            background-position: left bottom;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>mude a orientação de seu dispositivo</h1>
+</body>
+</html>
