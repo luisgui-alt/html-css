@@ -1,0 +1,21 @@
+.container {
+    display: grid;
+    grid-template: repeat(3, 100px) / repeat(4, 1fr);
+}
+
+.caixa1 {
+    background-color: rgba(137, 43, 226, 0.473);
+    grid-area: 1 / 1 / 2 / 5;
+    text-align: center;
+    }
+
+.caixa2 {
+    background-color: chartreuse;
+    grid-area: 2 / 1 / 4 / 3;
+}
+
+.caixa3 {
+    background-color: black;
+    color: white;
+    grid-area: 2 / 3 / 4 / 5;
+}
